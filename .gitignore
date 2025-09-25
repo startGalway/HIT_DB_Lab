@@ -1,0 +1,39 @@
+# HIT Database Lab - Git Ignore File
+
+# Lab directory (created by setup script)
+rucbase-lab/
+
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled binaries
+*.o
+*.so
+*.a
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Package files
+*.deb
+*.rpm
+*.tar.gz
+*.zip
